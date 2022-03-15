@@ -1,0 +1,328 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: PingFang TC, Semibold;
+  width: 940px;
+  margin: auto;
+  padding-top: 30px;
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row ul {
+  display: flex;
+  width: 319px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row ul li a {
+  color: #3f5d45;
+  height: 22px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.IMG {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.love {
+  width: 20px;
+  height: 18.5px;
+}
+.IMG img {
+  padding-top: 36.5px;
+  padding-bottom: 60px;
+  /* flex-grow: 1; */
+}
+
+.darkG {
+  background-color: #3f5d45;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.lightG {
+  letter-spacing: 0px;
+  color: #3f5d45;
+  background-color: #eaf0ed;
+  width: 300px;
+  height: 65px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.col li {
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid #eaf0ed;
+  list-style-type: none;
+}
+
+p {
+  color: #3f5d45;
+}
+a {
+  text-decoration: none;
+}
+.row h2 {
+  width: 32px;
+  margin-right: 60px;
+  font-size: 16px;
+  line-height: 73px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #3f5d45;
+}
+
+.row2 h2 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.Macaron {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  text-align: center;
+  font-size: 20px;
+  height: 56px;
+  padding: 13px;
+  border: 1px solid #eaf0ed;
+}
+
+.Macaron .caramel {
+  width: 107px;
+  line-height: 20px;
+  font-weight: 300;
+  font-family: PingFang TC, Light;
+}
+
+.next {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.next li {
+  border: 1px solid #eaf0ed;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.next li a {
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #3f5d45;
+}
+
+.next li a img {
+  width: 24px;
+  height: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.card div {
+  position: absolute;
+  width: 258px;
+  padding-left: 20px;
+  padding-right: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card div h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  writing-mode: vertical-rl;
+  letter-spacing: 5px;
+  width: 36px;
+  height: 106.73px;
+  margin-top: 0px;
+  font: normal normal 600 16px/20px PingFang TC;
+}
+.card div img {
+  margin-top: 19px;
+  width: 20px;
+  height: 18.35px;
+}
